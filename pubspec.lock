@@ -94,16 +94,20 @@ packages:
   lib_core:
     dependency: "direct main"
     description:
-      path: "../lib_core"
-      relative: true
-    source: path
+      path: "."
+      ref: HEAD
+      resolved-ref: "4cdd93c0cabd598ea563ad6dd90bd7c8f23ac023"
+      url: "https://github.com/danjho/lib-core.git"
+    source: git
     version: "0.1.0"
   lib_dependencies:
     dependency: "direct main"
     description:
-      path: "../lib_dependencies"
-      relative: true
-    source: path
+      path: "."
+      ref: HEAD
+      resolved-ref: e8227afe6b72cc8a3aa26872657a8c5bd9a3d300
+      url: "https://github.com/danjho/lib-dependencies.git"
+    source: git
     version: "0.1.0"
   lints:
     dependency: transitive
@@ -140,16 +144,20 @@ packages:
   micro_calculator:
     dependency: "direct main"
     description:
-      path: "../micro_calculator"
-      relative: true
-    source: path
+      path: "."
+      ref: HEAD
+      resolved-ref: c69d5c54c35c454b8f74d9abd8c7f465b52a9af1
+      url: "https://github.com/danjho/micro-calculator.git"
+    source: git
     version: "0.1.0"
   micro_home:
     dependency: "direct main"
     description:
-      path: "../micro_home"
-      relative: true
-    source: path
+      path: "."
+      ref: HEAD
+      resolved-ref: "52c67591a9935b0faf7cd2461750487c6f65feb8"
+      url: "https://github.com/danjho/micro-home.git"
+    source: git
     version: "0.1.0"
   path:
     dependency: transitive

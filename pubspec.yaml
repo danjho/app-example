@@ -11,13 +11,17 @@ dependencies:
   flutter:
     sdk: flutter
   lib_dependencies:
-    path: ../lib_dependencies
+    git:
+      url: https://github.com/danjho/lib-dependencies.git
   lib_core:
-    path: ../lib_core
+    git:
+      url: https://github.com/danjho/lib-core.git
   micro_calculator:
-    path: ../micro_calculator
+    git:
+      url: https://github.com/danjho/micro-calculator.git
   micro_home:
-    path: ../micro_home
+    git:
+      url: https://github.com/danjho/micro-home.git
 
 dev_dependencies:
   flutter_test:
