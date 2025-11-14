@@ -1,4 +1,5 @@
 {
+    "dart.flutterSdkPath": "~/fvm/default",
     "editor.rulers": [
         80,
         120
@@ -16,6 +17,7 @@
     "workbench.activityBar.location": "hidden",
     "workbench.statusBar.visible": false,
     // "window.titleBarStyle": "native",
+    "editor.renderLineHighlight": "gutter",
     "window.customTitleBarVisibility": "never",
     "editor.stickyScroll.enabled": false,
     "notebook.stickyScroll.enabled": false,
@@ -33,11 +35,11 @@
     "workbench.colorCustomizations": {
         "editor.background": "#0f0f0f",
         "sideBar.background": "#0f0f0f",
+        "window.activeBorder": "#0f0f0f",
         "activityBar.background": "#0f0f0f",
-        "titleBar.activeBackground": "#0B0B0B",
+        "titleBar.activeBackground": "#0f0f0f",
         "statusBar.background": "#0f0f0f",
         "terminal.background": "#0f0f0f",
-        "terminalCursor.foreground": "#0f0f0f",
         "panel.background": "#0f0f0f",
         "panel.border": "#0f0f0f",
         "tab.border": "#0f0f0f",
@@ -47,16 +49,12 @@
         "editorGroupHeader.tabsBorder": "#0f0f0f",
         "tab.activeBackground": "#0f0f0f",
         "tab.inactiveBackground": "#0f0f0f",
-        // "tab.activeBorder": "#0f0f0f",
-        // "titleBar.border": "#0f0f0f",
         "tab.background": "#0f0f0f",
         "statusBar.border": "#0f0f0f",
         "activityBar.border": "#0f0f0f",
-        "terminal.border": "#0f0f0f",
         "statusBarItem.hoverBackground": "#0f0f0f",
         "input.background": "#0f0f0f",
         "input.border": "#0f0f0f",
-        "scrollbarSlider.background": "#0f0f0f80",
         "titleBar.inactiveBackground": "#0f0f0f",
         "editorGroupHeader.tabsBackground": "#0f0f0f",
         "editorIndentGuide.background1": "#212121",
@@ -65,6 +63,7 @@
         "editorIndentGuide.background4": "#212121",
         "editorIndentGuide.background5": "#212121",
         "editorIndentGuide.background6": "#212121",
+        "editorRuler.foreground": "#181818",
         "editorIndentGuide.activeBackground1": "#4c4c4c",
         "editorIndentGuide.activeBackground2": "#4c4c4c",
         "editorIndentGuide.activeBackground3": "#4c4c4c",
@@ -80,5 +79,6 @@
         // "numbers": "#E07B7B",
         // "types": "#ebdd94",
         // "variables": "#f68282"
-    }
+    },
+    "diffEditor.codeLens": true
 }
